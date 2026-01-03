@@ -1,0 +1,84 @@
+{
+  "capabilities": {
+    "multi_mailbox": false,
+    "nfc_pairing": false,
+    "pow": false
+  },
+  "card": {
+    "updated_at": 1767084329,
+    "version": 1
+  },
+  "delegation": {
+    "object": {
+      "constraints": {
+        "allowed_ops": [
+          "whisper_msg_sign",
+          "whisper_handshake",
+          "whisper_card_sign"
+        ],
+        "audience": [
+          "whisper.client",
+          "whisper.mailbox",
+          "whisper.relay"
+        ],
+        "expires_at": "2027-01-01T00:00:00Z",
+        "min_security_tier": "C",
+        "not_before": "2026-01-01T00:00:00Z"
+      },
+      "issuer": {
+        "address": "0x9835687c0eC5228913A79Fcfc11F6ac0712DE7Bb",
+        "alg": "secp256k1_eip191",
+        "chain": "eip155:1",
+        "fingerprint": "eip155:1:0x9835687c0ec5228913a79fcfc11f6ac0712de7bb"
+      },
+      "scope": "whisper",
+      "sig": {
+        "address": "0x9835687c0eC5228913A79Fcfc11F6ac0712DE7Bb",
+        "alg": "secp256k1_eip191",
+        "value": "0x2fc48456616df2c619ab946c57601dc8c5c533935080ff8caf6ea2f6842a3e224fae796dbf29630d8d9f34141efd56fbb25bfa8c21566d69f1b43dacbf792a961b"
+      },
+      "subject": {
+        "alg": "ed25519",
+        "fingerprint": "spki:ed25519:MCowBQYDK2VwAyEA65HDB337sfcCDifGOVH1oza_FmuUjzm7CcHuRfQxgpU"
+      },
+      "type": "f3nix.delegation",
+      "v": 1
+    },
+    "ref": "sha256:0x52ec260768a8d04cb0aefe6994a373ceee6c33a5df9e7fbb3aed196baafb9b56"
+  },
+  "mailboxes": [
+    {
+      "id": "xZBncGluWkgUI444GWwmzniqLUqiw011",
+      "prio": 100,
+      "url": "https://hyacinth-bromidic-cordell.ngrok-free.dev"
+    },
+    {
+      "id": "xZBncGluWkgUI444GWwmzniqLUqiw011",
+      "prio": 10,
+      "url": "http://localhost:8080"
+    }
+  ],
+  "profile": {
+    "min_security_tier": "C",
+    "scope": "whisper"
+  },
+  "root_identity": {
+    "address": "0x9835687c0ec5228913a79fcfc11f6ac0712de7bb",
+    "alg": "secp256k1_eip191",
+    "chain": "eip155:1",
+    "fingerprint": "eip155:1:0x9835687c0ec5228913a79fcfc11f6ac0712de7bb"
+  },
+  "subject": "bob.wspr.f3nixid.eth",
+  "type": "whisper.contact_card",
+  "usage_identity": {
+    "alg": "ed25519+x25519",
+    "fingerprint": "spki:ed25519:MCowBQYDK2VwAyEA65HDB337sfcCDifGOVH1oza_FmuUjzm7CcHuRfQxgpU",
+    "pub": {
+      "ed25519_spki_b64u": "MCowBQYDK2VwAyEA65HDB337sfcCDifGOVH1oza_FmuUjzm7CcHuRfQxgpU",
+      "x25519_spki_b64u": "MCowBQYDK2VuAyEA6b3XfhHFyA0XSaSjaakt5g3_6gSB9fCxSoJ1lthBXAk"
+    }
+  },
+  "v": 1,
+  "name": "bob.wspr.f3nixid.eth",
+  "fingerprint": "eip155:1:0x9835687c0ec5228913a79fcfc11f6ac0712de7bb"
+}
