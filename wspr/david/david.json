@@ -1,0 +1,49 @@
+{
+  "v": 2,
+  "type": "whisper.contact_card",
+  "service": "whisper",
+  "name": "david.wspr.f3nixid.eth",
+  "subject": "david.wspr.f3nixid.eth",
+  "fingerprint": "eip155:1:0x9835687c0ec5228913a79fcfc11f6ac0712de7bb",
+  "usage_identity": {
+    "alg": "ed25519+x25519",
+    "fingerprint": "spki:ed25519:8zeRyR-mG1dGSgZQN8PwPS_7k5TrbSnfz5_MtsRIHMc",
+    "inbox_id": "e61f1e070d6b572f699fa074",
+    "pub": {
+      "ed25519_spki_b64u": "8zeRyR-mG1dGSgZQN8PwPS_7k5TrbSnfz5_MtsRIHMc",
+      "x25519_spki_b64u": "IBWcabUMgKBDxnxPYHliZ4blGuKp4D84IOx4x7W2JzU",
+      "signed_pre_key": "_KF8Mzb5XjSTJSNMjYRTTTGrQTR0L2PojlACMZJ-GlM",
+      "signed_pre_key_sig": "yclHUjsfZETmViNAc2VgLa0o-WSS7Lnf28M1or5IVcg"
+    }
+  },
+  "root_identity": {
+    "address": "0x9835687c0eC5228913A79Fcfc11F6ac0712DE7Bb",
+    "alg": "secp256k1_eip191",
+    "chain": "eip155:1",
+    "fingerprint": "eip155:1:0x9835687c0ec5228913a79fcfc11f6ac0712de7bb"
+  },
+  "mailboxes": [
+    {
+      "url": "https://wspr.f3nix.fr",
+      "id": "20159c69b50c80a043c67c4f60796267",
+      "inbox_id": "e61f1e070d6b572f699fa074",
+      "prio": 100
+    },
+    {
+      "url": "https://wspr2.f3nix.fr",
+      "id": "20159c69b50c80a043c67c4f60796267",
+      "inbox_id": "e61f1e070d6b572f699fa074",
+      "prio": 50
+    }
+  ],
+  "capabilities": {
+    "multi_mailbox": true,
+    "sealed_sender": true,
+    "opaque_inbox": true,
+    "size_buckets": true
+  },
+  "card": {
+    "version": 2,
+    "updated_at": 1772114235
+  }
+}
